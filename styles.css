@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.balance {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.summary {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  background: #e3eaf3;
+  text-align: center;
+}
+
+.income-box {
+  border: 2px solid green;
+}
+
+.expense-box {
+  border: 2px solid red;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li {
+  padding: 8px;
+  background: white;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+@media (max-width: 480px) {
+  .summary {
+      flex-direction: column;
+  }
+}
