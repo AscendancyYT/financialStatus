@@ -51,10 +51,14 @@ h2 {
 
 .income-box {
   border: 2px solid green;
+  overflow-y: scroll;
+  height: 200px;
 }
 
 .expense-box {
   border: 2px solid red;
+  overflow-y: scroll;
+  height: 200px;
 }
 
 .input-section {
