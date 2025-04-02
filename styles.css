@@ -10,14 +10,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .container {
   background: white;
   padding: 20px;
-  width: 90%;
   max-width: 500px;
+  height: 100vh;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -103,10 +102,10 @@ ul li {
   }
   .income-box{
     overflow-y: scroll;
-    height: 150px;
+    max-height: 150px;
   }
   .expense-box{
     overflow-y: scroll;
-    height: 150px;
+    max-height: 150px;
   }
 }
