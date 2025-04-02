@@ -103,10 +103,10 @@ ul li {
   }
   .income-box{
     overflow-y: scroll;
-    height: 200px;
+    height: 150px;
   }
   .expense-box{
     overflow-y: scroll;
-    height: 200px;
+    height: 150px;
   }
 }
