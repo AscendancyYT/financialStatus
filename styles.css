@@ -101,4 +101,10 @@ ul li {
   .summary {
       flex-direction: column;
   }
+  .income-box{
+    overflow-y: scroll;
+  }
+  .expense-box{
+    overflow-y: scroll;
+  }
 }
